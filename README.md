@@ -37,6 +37,26 @@ Then install the correct PyTorch version depending on your hardware.
 However, this is **not highly recommended**, as the requirements file was generated from my global environment and some package versions may not be compatible with your setup.  
 It may also include libraries that are not strictly required for this project, so always install versions that match your own environment.
 
+There are two ways to set up the project:
+
+#### Option 1 — Clone with Git (Recommended)
+Make sure Git and Git LFS are installed, then run:
+```bash
+git lfs install
+git clone <repo-url>
+cd <repo>
+git lfs pull
+````
+
+#### Option 2 — Download ZIP
+
+If you downloaded the ZIP from GitHub, note that **Git LFS model files are not included**.
+You must manually replace the model files inside:
+
+```
+/pretrained_backbone/
+/checkpoints
+```
 ---
 
 ## Project Structure
