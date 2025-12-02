@@ -1,0 +1,10 @@
+“Due to inherent randomness in deep learning optimization on small datasets, repeated training runs produced F1 variations of approximately ±0.1.
+The best-performing run (epoch 20, LR = 4e-4, batch size = 128) achieved:
+
+Backbone	Task	Split	Disease	Accuracy	Precision	Recall	F1-score	Kappa
+0	efficientnet	full_ft	offsite	DR	0.770	0.879032	0.778571	0.825758	0.491150
+1	efficientnet	full_ft	offsite	Glaucoma	0.875	0.730769	0.775510	0.752475	0.668962
+2	efficientnet	full_ft	offsite	AMD	0.865	0.424242	0.636364	0.509091	0.434437
+3	efficientnet	full_ft	offsite	Average F1	NaN	NaN	NaN	0.695775	NaN
+and for on site F1 score is 0.8047
+This model is used for further analysis.”
